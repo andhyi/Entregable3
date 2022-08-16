@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(3, 32, 10);
+    color: white;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    background-image: url(./style/Rick.jpg);
+    background-size: cover;
+}
+
+.inputSearch{
+    justify-content: center;
+    width: 50%;
+
+}
+.inputSearch:focus{
+    border-color: rgb(6, 241, 6);
+    border: 4px;
+}
+
+form{
+    
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+
+    height: auto;
+}
+.title2{
+    text-align: center;
+}
+.ul{
+    display: flex;
+    justify-content: center;
+    gap: 80px ;
+    flex-wrap: wrap;
+    margin:0;
+}
+.art_container{
+
+background-color: rgba(5, 117, 28, 0.637);
+margin: 30px 10%;
+gap: 20px;
+
+
+}
+
+img{
+    border: 3px solid rgb(26, 55, 136);
+}
+
+.card{
+
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.cardm{
+    border: 3px solid rgb(26, 55, 136);
+}
+
+.card_name{
+    text-align: center;
+}
+
+.card_container{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(240, 114, 11);
+    border-radius: 50%;
+}
